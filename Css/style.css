@@ -1,0 +1,400 @@
+/* =============common css====================== */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+ul li{
+    list-style: none;
+}
+h1 h2 h3 h4 h5 h6 p ul ol{
+    margin: 0;
+    padding: 0;
+}
+/* =============common css end====================== */
+
+
+
+
+/* =============css for navbar================= */
+.logo{
+    margin-left: 120px;
+}
+.kodi{
+    display: flex;
+    justify-content: end;
+    margin-right: 120px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.kodiTwo{
+    gap: 61px;
+}
+.kodiTwo .kodiTHREE{
+    transition: all linear .10s;
+
+}
+.kodiTwo .kodiTHREE:hover{
+    color: #054C73;
+    transform: scale(1.3);
+    animation: navkodi .30s;
+}
+@keyframes navkodi{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.kodiTwo .kodiTHREE:hover:active{
+    transform: scale(1.5);
+}
+/* =============css for navbar end================= */
+
+
+
+
+/* =============css for section 1================= */
+#secONE{
+    background:url(../photos/scandinavian.png);
+    width: 100%;
+    height: 749px;
+    position: relative;
+}
+.secONEdivONE{
+    width: 643px;
+    height: 443px;
+    background: #DFE9F4;
+    border-radius: 10px;
+    position: absolute;
+    top: 155px;
+    left: 707px;
+    position: relative;
+}
+.secONEdivONE .secONEpONE{
+    top: 37px;
+    left: 39px;
+    position: absolute;
+}
+.heading{
+    width: 327px;
+    top: 77px;
+    left: 39px;
+    position: absolute;
+}
+.textONE{
+    width: 482px;
+    padding-top: 224px;
+    padding-left: 39px;
+}
+.secONEbuttonONE{
+    width: 229px;
+    height: 70px;
+    background: #054C73;
+    border-radius: 50px;
+    color: #fff;
+    bottom: 41px;
+    left: 39px;
+    position: absolute;
+    transition: all linear .2s;
+}
+.secONEbuttonONE:hover{
+    background: transparent;
+    border: 1px solid #054C73;
+    color: #054C73;
+}
+.secONEbuttonONE:hover:active{
+    transform: scale(1.2);
+}
+/* =============css for section 1 end================= */
+
+
+
+
+/* =============css for section 2================= */
+#secTWO{
+    width: 100%;
+    height: 150px;
+    background: #F2F5FF;
+}
+.secTWOrow{
+    display: flex;
+    justify-content:space-around ;
+}
+.secTWOdivONE{
+    display: flex;
+    padding-top: 46px;
+    gap: 25px;
+}
+.secTWOdiTWO{
+    display: flex;
+    padding-top: 46px;
+    gap: 25px;
+}
+.secTWOdivTHREE{
+    display: flex;
+    padding-top: 46px;
+    gap: 25px;
+}
+/* =============css for section 2 end================= */
+
+
+
+
+/* =============css for section 3================= */
+#secTHREE{
+    width: 100%;
+    height: 737px;
+}
+.secTHREEdivONE{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divFORtext .b1{
+    padding-top: 60px;
+    padding-left: 35px;
+}
+.divFORtext .b2{
+    padding-top: 20px;
+}
+.divFORphotos .img1{
+    padding-top: 50px;
+}
+.divFORphotos .img2{
+    padding-bottom: 100px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.divFORphotos .img3{
+    padding-top: 50px;
+}
+/* =============css for section 3 end================= */
+
+
+
+/* =============css for section 4================= */
+#secFOUR{
+    width: 100%;
+    height: 756px;
+}
+.secFOURdivONE{
+    display: flex;
+    gap: 440px;
+}
+.secFOURbuttonONE{
+    width: 229px;
+    height: 70px;
+    background: #054C73;
+    border-radius: 50px;
+    transition: all linear .3s;
+}
+.secFOURbuttonONE:hover{
+    background: black;
+    
+}
+.secFOURbuttonONE:hover:active{
+    transform: scale(1.3);
+}
+.secFOURdivFORtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 155px;
+}
+.secFOURdivFORtext .c2{
+    width: 350px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+/* =============css for section 4 end================= */
+
+
+
+/* =============css for section 5================= */
+#secFIVE{
+    width: 100%;
+    height: 1700PX;
+}
+.secFIVEdivONE{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.secFIVEdivFORtext{
+    padding-top: 55PX;
+    padding-bottom: 50PX;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.secFIVEdivFORimg{
+    display: flex;
+    gap: 20px ;
+} 
+.d1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.b1 p{
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+.d2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.b2 p{
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+.d3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.b3 p{
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+.ee{
+    padding-top: 30px;
+}
+.secFIVEdivTWO{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+ 
+/* =======================section 5 part2============================ */
+.e1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.e2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.e3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.e1t1{
+    width: 285px;
+}
+.e1t2{
+    width: 291px;
+}
+.e1t3{
+    width: 285px;
+}
+/* =============css for section 5 end================= */
+
+
+
+/* =============css for section 6================= */
+#secSIX{
+    width: 100%;
+    height: 363px;
+    background: #F2F5FF;
+}
+.secSIXdivFORtext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.f1{
+    padding-top: 59px;
+}
+.f2{
+    width: 335px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.inputFORemail{
+    width: 333px;
+    height: 70px;
+}
+.btFORsub{
+    width: 153px;
+    height: 70px;
+    background: #054C73;
+    border-radius: 3px;
+    color: #fff;
+    transition: all linear .2s
+}
+.btFORsub:hover{
+    background:#fff ;
+    border: 1px solid #054C73;
+    color: #000;
+    
+}
+.btFORsub:hover:active{
+    transform: scale(1.3);
+}
+.inputFORemail {
+    padding: 25px;
+}
+/* =============css for section 6 end================= */
+
+
+
+/* =============css for section 7================= */
+#secSEVEN{
+    background: #03344F;
+    width: 100%;
+    height: 386PX;
+}
+.secSEVENdivFORtext{
+    color: #fff;
+
+}
+.g1{
+    padding-top: 49px;
+    padding-bottom: 34px;
+}
+.g2{
+    width: 400PX;
+}
+.g3{
+    padding-top: 21px;
+}
+.secSEVENdivONE{
+    display: flex;
+
+    justify-content: space-between;
+    padding-left: 120px;
+}
+.g4{
+    padding-top: 49px;
+    padding-bottom: 34px;
+}
+.secSEVENdivFORimg{
+    padding-right: 134px;
+    color: #fff;
+
+}
+.g5{
+    display: flex;
+    gap: 20px;
+}
+/* =============css for section 7 end================= *
